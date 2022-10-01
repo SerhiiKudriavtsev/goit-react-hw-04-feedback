@@ -1,0 +1,37 @@
+.feedback__list {
+  display: flex;
+  grid-gap: 10px;
+}
+
+.feedback__item {
+  
+}
+
+.feedback__btn {
+  color: yellow;
+  border: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: scale 250ms linear, background-color 250ms linear;
+
+}
+.feedback__btn:hover,
+    .feedback__btn:focus {
+    scale: 1.05;
+  }
+
+.feedback__good {
+  background-color: green;
+}
+
+.feedback__neutral {
+  background-color: blue;
+}
+
+.feedback__bad {
+  background-color: red;
+}
